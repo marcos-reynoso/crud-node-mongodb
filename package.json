@@ -1,0 +1,25 @@
+{
+	"name": "mongodb-node-crud",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon  src/index.js --exec babel-node"
+	},
+	"keywords": [],
+	"author": "marcos-reynoso",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^5.1.0",
+		"express-handlebars": "^8.0.3",
+		"mongoose": "^8.17.1",
+		"morgan": "^1.10.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.28.3",
+		"@babel/core": "^7.28.3",
+		"@babel/node": "^7.28.0",
+		"@babel/preset-env": "^7.28.3",
+		"nodemon": "^3.1.10"
+	}
+}
