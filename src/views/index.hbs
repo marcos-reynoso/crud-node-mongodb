@@ -1,3 +1,8 @@
-<h1>Hello World</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur, deleniti accusantium dicta ea optio voluptatem, minima non eius expedita incidunt nemo vel itaque fugit perferendis laborum! Ad, odio commodi.
-</p>
+<div class="main-content">
+    <div class="form-container">
+        {{> taskForm }}
+    </div>
+    <div class="table-container">
+        {{> taskTable tasks=tasks}}
+    </div>
+</div>
